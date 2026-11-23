@@ -1,0 +1,25 @@
+ÉTAPE 2 - Envoyer les fichiers
+==============================
+
+1. Sur la page du dépôt vide, cliquer sur le lien « uploading an existing file ».
+
+2. Dans ce dossier, tout sélectionner (Ctrl+A) SAUF ce fichier _LISEZ-MOI_ETAPE_2.txt,
+   puis glisser les 9 fichiers dans la page :
+     .gitignore
+     build.bat
+     CHANGELOG.md
+     CLAUDE.md
+     Gestionnaire-MCP-v2.0.spec
+     gestion_mcp.py
+     LICENSE
+     README.md
+     RELEASE_NOTES.md
+
+3. En bas de la page, message : Version 2.0.0
+
+4. Cliquer sur « Commit changes ».
+
+Si .gitignore n'apparaît pas dans la liste envoyée : « Add file » > « Create new file »,
+nom .gitignore, coller son contenu (l'ouvrir avec le Bloc-notes), « Commit changes ».
+
+Passer ensuite à ETAPE_3_release.
